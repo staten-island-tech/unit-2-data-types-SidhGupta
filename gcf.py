@@ -28,11 +28,19 @@ if x%11 == 0 and y%11 == 0
      print("gcf is 2")
  """
 
-x = input("choose a number")
-y = input("choose another number")
+number1 = int(input("choose a number"))
+number2 = int(input("choose another number"))
 
-def factors(gcf):
-    factorlist = []
-    for i range (1, gcf+1):
-        if gcf%i == 0 
-        factor list 
+list1 = []
+number = 1
+def factor():
+ if number1 > number2:
+    number = number1
+ elif number1 < number2:
+    number = number2
+
+ for i in range (1, number+1):
+    if number1 % i == 0 and number2 % i == 0:
+     list1.append(i)
+    print(max(list1))
+factor()
